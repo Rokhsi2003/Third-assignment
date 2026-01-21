@@ -1,0 +1,56 @@
+.body {
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(93, 19, 184);
+    color: rgb(46, 64, 115);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-clip: padding-box;
+    box-shadow: blueviolet;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5px;
+    margin-top: 50px;
+    font-style: initial;
+    font-weight: 50px;
+    font-size: 100px;
+}
+
+.theater-screen {
+    position: relative;
+    max-width: 50%;
+    margin: 250px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(50, 46, 128, 0.5);
+}
+
+  
+
+.video-container {
+    padding-bottom: 56.25%;  
+    position: relative;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 5px;
+    left:10px;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    background-color: aqua;
+    text-decoration: blueviolet;
+
+}
+
+footer {
+   text-shadow: darkolivegreen;
+    text-align: center;
+    margin-top: 20px;
+    font-style: initial;
+    font-size: medium;
+}
